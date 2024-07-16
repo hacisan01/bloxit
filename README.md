@@ -14,7 +14,7 @@ getUserInfoFromUsername, getUserRankInGroupFromID, getGroupInfoFromID, getUserIn
 ### getUserInfoFromUsername Function
 ```js
 async function example_UserInfoFromUsername() {
-    const RobloxAPI = require("custom-robloxapi") // 2. Loading Module
+    const RobloxAPI = require("bloxit") // 2. Loading Module
 
     let getUserInfoFromUsername = await RobloxAPI.getUserInfoFromUsername("ROBLOX") // 3. Requesting user info with ROBLOX username.
 
@@ -41,7 +41,7 @@ example_UserInfoFromUsername() // 1. Calling function first.
 ```js
 async function example_UserRankInfo() {
 
-    const RobloxAPI = require("custom-robloxapi") // 2. Loading Module
+    const RobloxAPI = require("bloxit") // 2. Loading Module
 
     // 3. Requesting rank info with ROBLOX UserID + ROBLOX GroupID.
     let getUserRankInGroupFromID = await RobloxAPI.getUserRankInGroupFromID({ UserID: "1", GroupID: "7" }) 
@@ -76,7 +76,7 @@ example_UserRankInfo() // 1. Calling function.
 ```js
 async function example_GroupInfoFromID() {
 
-    const RobloxAPI = require("custom-robloxapi") // 2. Loading Module
+    const RobloxAPI = require("bloxit") // 2. Loading Module
 
     // 3. Requesting rank info with ROBLOX UserID + ROBLOX GroupID.
     let getGroupInfoFromID = await RobloxAPI.getGroupInfoFromID("7")
@@ -107,7 +107,7 @@ example_GroupInfoFromID() // 1. Calling function.
 ```js
 async function example_UserInfoFromID() {
 
-    const RobloxAPI = require("custom-robloxapi") // 2. Loading Module
+    const RobloxAPI = require("bloxit") // 2. Loading Module
 
     let getUserInfoFromID = await RobloxAPI.getUserInfoFromID("1") // 3. Requesting more user info with ROBLOX UserId.
 
@@ -133,22 +133,4 @@ example_UserInfoFromID() // 1. Calling function.
 # isBanned               : Is ROBLOX user banned?
 # CreatedAt              : Creation Date of ROBLOX user.
 # Description            : Description of ROBLOX user.
-```
-
-
-## CHANGE NOTES
-
-### v1.0.3
-```
-# Some fixes for README.md + package.json
-```
-
-### v1.0.2
-```
-# Some fixes for README.md + package.json
-```
-
-### v1.0.1
-```
-# New package
 ```

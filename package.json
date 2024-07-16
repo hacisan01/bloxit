@@ -1,10 +1,10 @@
 {
   "name": "bloxit",
-  "version": "1.0.3",
-  "description": "This module supports some of ROBLOX API endpoints. You can access to basic info of user/group.",
+  "version": "1.0.4",
+  "description": "Bloxit supports some of ROBLOX API endpoints. You can access to basic info about user/group.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node example.js"
   },
   "author": "Tufan Şahin",
   "license": "MIT",
@@ -27,6 +27,5 @@
   "homepage": "https://github.com/hacisan01/bloxit#readme",
   "directories": {
     "lib": "lib"
-  },
-  "devDependencies": {}
+  }
 }
