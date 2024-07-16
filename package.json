@@ -1,0 +1,32 @@
+{
+  "name": "bloxit",
+  "version": "1.0.3",
+  "description": "This module supports some of ROBLOX API endpoints. You can access to basic info of user/group.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tufan Şahin",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2"
+  },
+  "keywords": [
+    "roblox",
+    "bot",
+    "discord",
+    "backend"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hacisan01/bloxit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hacisan01/bloxit/issues"
+  },
+  "homepage": "https://github.com/hacisan01/bloxit#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
+}
